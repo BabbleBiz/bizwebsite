@@ -1,8 +1,9 @@
 import React from 'react';
 import {Button} from 'semantic-ui-react'
 import './App.css';
-import logo from './logo.png'
+import logo from './images/logo.png'
 import Projects from './Projects'
+import Bio from './Bio'
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
         </a>
 
       </header>
-      <div>
+      <div id='maincontainer'>
+        <Bio />
         <Projects />
       </div>
     </div>

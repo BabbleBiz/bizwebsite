@@ -21,3 +21,14 @@
 .logo {
   height: 50px
 }
+
+/* Flex container for bio and projects */
+#maincontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Flex container for project cards */
+#projectcontainer {
+
+}
