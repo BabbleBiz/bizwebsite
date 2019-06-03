@@ -1,7 +1,6 @@
 import React from 'react';
 import {Button} from 'semantic-ui-react'
 import './App.css';
-import logo from './images/logo.png'
 import Projects from './Projects'
 import Bio from './Bio'
 
@@ -9,11 +8,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} alt="Logo"  className='logo'/>
+
         <p>
-          Elizabeth 'Biz' Silverstein
+          Elizabeth  'Biz'  Silverstein
         </p>
-        <Button className="ui button">Click Here</Button>
         <a
           className="App-link"
           href="https://github.com/BabbleBiz"
@@ -30,7 +28,7 @@ function App() {
         >
           LinkedIn: elizabethsilverstein
         </a>
-
+        <Button className="ui tiny button">Download Biz's Resume</Button>
       </header>
       <div id='maincontainer'>
         <Bio />

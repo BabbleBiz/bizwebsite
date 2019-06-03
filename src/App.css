@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #484a4d;
   /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
@@ -11,15 +11,18 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 10px;
+  padding: 10px 100px 10px 10px;
+
 }
 
 .App-link {
-  color: #61dafb;
+  font-size: 15px;
+  color: #0ac5f9;
 }
 
 .logo {
-  height: 50px
+  height: 50px;
+  border: 4px solid white;
 }
 
 /* Flex container for bio and projects */
