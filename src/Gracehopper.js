@@ -12,7 +12,7 @@ function gracehopper() {
         <Card.Header>Grace HOPper</Card.Header>
         <Card.Meta>
           <span className='date'>
-            One and a half week group project
+            One Week and a Half Group Project 
               </span>
         </Card.Meta>
         <Card.Description>

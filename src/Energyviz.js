@@ -12,7 +12,7 @@ function energyviz() {
         <Card.Header>EnergyViz</Card.Header>
         <Card.Meta>
           <span className='date'>
-            Four day personal hack-a-thon project
+            Four-day Personal Hack-a-thon Project
               </span>
         </Card.Meta>
         <Card.Description>

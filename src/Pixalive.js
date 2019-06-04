@@ -12,7 +12,7 @@ function pixalive () {
         <Card.Header>Pixalive</Card.Header>
         <Card.Meta>
           <span className='date'>
-            Two-week Capstone Group Project 
+            Two-week Capstone Group Project
               </span>
         </Card.Meta>
         <Card.Description >
