@@ -7,9 +7,9 @@ import Bio from './Bio'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header" >
 
-        <p>
+        <p id='name'>
           Elizabeth  'Biz'  Silverstein
         </p>
         <a

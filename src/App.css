@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-header {
@@ -29,6 +29,7 @@
 #maincontainer {
   display: flex;
   flex-direction: row;
+  text-align: center;
 }
 
 .blurb {
@@ -39,4 +40,9 @@
 .list {
   color: rgb(89, 89, 89);
 }
+
+#name {
+  text-align: left;
+}
+
 

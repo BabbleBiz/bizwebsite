@@ -12,12 +12,12 @@ function pixalive () {
         <Card.Header>Pixalive</Card.Header>
         <Card.Meta>
           <span className='date'>
-            Two week capstone group project
+            Two-week Capstone Group Project 
               </span>
         </Card.Meta>
         <Card.Description >
           <span className='blurb'>
-            A multi-user, real-time pixel art editor utilizing React Hooks, Canvas and Socket.Io game designers and artists can produce high quality and complex animations, or your colleagues and friends at the office can unleash their emoji-creating potential, making and exporting animated gifs for your slack channel.
+            A multi-user, real-time pixel art editor utilizing React Hooks, Canvas and Socket.Io allowing game designers and artists to produce high quality and complex animations, or your colleagues and friends at the office can unleash their emoji-creating potential, making and exporting animated gifs for your slack channel.
           </span>
         </Card.Description>
       </Card.Content>
