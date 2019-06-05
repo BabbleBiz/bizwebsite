@@ -6,14 +6,12 @@ import pixaliveImg from './images/pixalive.png'
 function pixalive () {
 
   return (
-    <Card fluid color='red' header='Pixalive' href='https://pixalive.herokuapp.com/' target='_blank'>
+    <Card fluid color='red' href='https://pixalive.herokuapp.com/' target='_blank'>
       <Image src={pixaliveImg} wrapped size='small' ui={true} centered />
       <Card.Content>
         <Card.Header>Pixalive</Card.Header>
         <Card.Meta>
-          <span className='date'>
             Two-week Capstone Group Project
-              </span>
         </Card.Meta>
         <Card.Description >
           <span className='blurb'>
@@ -33,18 +31,21 @@ function pixalive () {
           Key takeways: The most important takeaway from this project was the importance of choosing the right technology for your work. We choose React hooks to learn it, but using Redux would have been more straightforward in many cases. In addition, initially we considered using Firestore as our database but quickly realized our high number of writes to the database would not allow use of that technology.
               <Divider hidden />
         </span>
-          <Button circular size='tiny' color='github' href='https://github.com/pixalive' target='_blank' >
-          <Icon name='github' />
-          GitHub
+        <div id="pixaliveicons">
+          <Button circular size='tiny' href='https://github.com/pixalive' target='_blank' >
+            <Icon name='github' />
+            GitHub
         </Button>
-          <Button circular size='tiny'  color='github' href='https://www.youtube.com/watch?v=PVSvkN2WdAw&    list=PLx0iOsdUOUmk9wbCJIHGsqBWYV29-3c0I&index=23&t=0s' target='_blank' textAlign='center'>
-          <Icon name='youtube' />
-          Video Walk-Through
+          <Button circular size='tiny' href='https://www.youtube.com/watch?v=PVSvkN2WdAw&    list=PLx0iOsdUOUmk9wbCJIHGsqBWYV29-3c0I&index=23&t=0s' target='_blank'>
+            <Icon name='youtube' />
+            Video Walk-Through
               </Button>
-          <Button circular size='tiny' color='github' href='https://github.com/pixalive' target='_blank' textAlign='center'>
-          <Icon name='world' />
-          Deployed Site
+          <Button circular size='tiny' href='https://github.com/pixalive' target='_blank'>
+            <Icon name='world' />
+            Deployed Site
         </Button>
+        </div>
+
       </Card.Content>
     </Card>
   )

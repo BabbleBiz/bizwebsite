@@ -11,9 +11,7 @@ function gracehopper() {
       <Card.Content>
         <Card.Header>Grace HOPper</Card.Header>
         <Card.Meta>
-          <span className='date'>
-            One Week and a Half Group Project 
-              </span>
+            One and a Half Week Group Project
         </Card.Meta>
         <Card.Description>
           <span className='blurb'>
@@ -22,7 +20,7 @@ function gracehopper() {
         </Card.Description>
       </Card.Content>
       <Card.Content extra textAlign='left'>
-        <span className='list' >
+        <span className='list'>
           Technical success: This project used Semantic UI React to keep styling consistent across coders.
               <Divider hidden />
           Biggest challenge: The biggest challenge we faced in this project was creating a cart. We mob programmed the framework for the cart, allowing items to be added, removed and updated for a specific user.
@@ -32,17 +30,16 @@ function gracehopper() {
           Key takeaways: We started the project with a robust project board which we kept updated. We were able to make as much progress as we did because we all knew what tasks remained and who was working on what task.
               <Divider hidden />
         </span>
-        <span float='center'>
+        <div id='gracehoppericons'>
           <Button circular color='github' href='https://github.com/toddivey/Grace_Shopper_ABMT' target='_blank'>
             <Icon name='github' />
             GitHub
-        </Button>
+          </Button>
           <Button circular color='github' href='https://gracehopper-abmt.herokuapp.com/' target='_blank'>
             <Icon name='world' />
             Deployed Site
-        </Button>
-        </span>
-
+          </Button>
+          </div>
       </Card.Content>
     </Card>
   )

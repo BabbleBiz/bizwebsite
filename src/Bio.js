@@ -29,7 +29,7 @@ function Bio() {
             After completing my training at Fullstack Academy of Code, I look forward to writing beautiful code to unlock the potential of the data all around us. When I'm not coding, you can find me at one of the many rock climbing gyms in Chicago. I am also known to patrol the dog beach with my lovable mutt Tails (yes, he is named after the Sonic character).
           </span>
           <Divider hidden />
-          <List textAlign='center'>
+          <List id='centerskills'>
             Skills:
             <List.Item>Proficient: Javascript · Express · React/Redux · Express · Sequelize ORM · PostgreSQL· Jasmin · SQL · Asana · CRM Dynamics</List.Item>
             <List.Item>Familiar: React Native · Webpack · Travis CI · Heroku · STATA·Mocha · Chai · OAuth · Passport · Git · Flexbox · CSS · HTML5 · Semantic UI React · Expo · D3 · FS(File System) · Socket.io · React Hooks · Firestore</List.Item>
@@ -37,7 +37,7 @@ function Bio() {
 
           <Divider hidden />
 
-            <List>
+          <List id='centereducation'>
               Education:
               <List.Item>Grace Hopper Track - Fullstack Academy of Code</List.Item>
               <List.Item>University of Wisconsin-Madison, La Follette School of Public Affairs (MPAff)</List.Item>

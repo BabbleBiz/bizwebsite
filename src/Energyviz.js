@@ -11,9 +11,7 @@ function energyviz() {
       <Card.Content>
         <Card.Header>EnergyViz</Card.Header>
         <Card.Meta>
-          <span className='date'>
             Four-day Personal Hack-a-thon Project
-              </span>
         </Card.Meta>
         <Card.Description>
           <span className='blurb'>
@@ -32,10 +30,12 @@ function energyviz() {
           Key takeaways: When I started this project I was warned that D3 and React did not interact in ways that were easy to predict. The biggest takeway from this project is that it is important to find the right tool for your job before you commit to a specific technology.
               <Divider hidden />
         </span>
+        <div id='energyvizicons'>
         <Button circular color='github' href='https://github.com/BabbleBiz/EnergyViz' target='_blank'>
           <Icon name='github' />
           GitHub
         </Button>
+        </div>
       </Card.Content>
     </Card>
   )

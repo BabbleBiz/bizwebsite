@@ -7,8 +7,7 @@ import Bio from './Bio'
 function App() {
   return (
     <div className="App">
-      <header className="App-header" >
-
+      <header id="App-header" >
         <p id='name'>
           Elizabeth  'Biz'  Silverstein
         </p>
@@ -28,7 +27,11 @@ function App() {
         >
           LinkedIn: elizabethsilverstein
         </a>
+        {/* <span>
+        <a href="/" download="BizSilversteinResume">
         <Button className="ui tiny button">Download Biz's Resume</Button>
+        </a>
+        </span> */}
       </header>
       <div id='maincontainer'>
         <Bio />
