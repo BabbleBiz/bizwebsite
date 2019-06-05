@@ -16,7 +16,7 @@ function Bio() {
           </Card.Meta>
           <Card.Description>
             <span className='blurb'>
-            I'm a coder who loves seeing people use my apps to make their lives better. Talk to me about how you use data to make your users' lives better.
+            I'm a coder who loves seeing people use my apps to make their lives better. Talk to me about how you use data to improve users' experience.
             </span>
 
 
